@@ -2,6 +2,7 @@
 Use bootstrap breakpoints as Vue.js directive inside your templates.
 
 Based on: [Bootstrap V4](https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints)
+Download on [NPMJS](https://www.npmjs.com/package/@eli5/bootstrap-breakpoints-vue)
 
 Breakpoints are:
 * xs: 0
