@@ -1,13 +1,14 @@
 # bootstrap-breakpoints-vue
 Use bootstrap breakpoints as Vue.js directive inside your templates.
+
 Based on: [Bootstrap V4](https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints)
 
 Breakpoints are:
-xs: 0
-sm: 576
-md: 768
-lg: 992
-xl: 1200
+* xs: 0
+* sm: 576
+* md: 768
+* lg: 992
+* xl: 1200
 
 ## Installation
 ```javascript

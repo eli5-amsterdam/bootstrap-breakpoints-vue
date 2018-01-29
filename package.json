@@ -1,0 +1,24 @@
+{
+  "name": "@eli5/bootstrap-breakpoints-vue",
+  "version": "1.0.0",
+  "description": "Use bootstrap breakpoints as Vue.js directive inside your templates",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://andre-dw@github.com/eli5-amsterdam/bootstrap-breakpoints-vue.git"
+  },
+  "keywords": [
+    "Vue.js",
+    "bootstrap"
+  ],
+  "author": "andre.dewaard@me.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eli5-amsterdam/bootstrap-breakpoints-vue/issues"
+  },
+  "homepage": "https://github.com/eli5-amsterdam/bootstrap-breakpoints-vue#readme"
+}
