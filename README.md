@@ -12,6 +12,17 @@ Breakpoints are:
 * xl: 1200
 
 ## Installation
+This Vue plugin can be installed via npm or yarn
+### npm 
+```
+npm install @eli5/bootstrap-breakpoints-vue
+```
+### yarn
+```
+yarn add @eli5/bootstrap-breakpoints-vue
+```
+
+## Initialization
 ```javascript
 import Vue from 'vue.js'
 import breakpoints from '@eli5/bootstrap-breakpoints-vue'
@@ -20,7 +31,7 @@ Vue.use(breakpoins);
 
 ## Usage
 ### Inside template
-Down
+#### Down
 ```html
   <span v-if="$mediaBreakpointDown('xs')"></span>
   <span v-if="$mediaBreakpointDown('sm')"></span>
@@ -28,7 +39,7 @@ Down
   <span v-if="$mediaBreakpointDown('lg')"></span>
   <span v-if="$mediaBreakpointDown('xl')"></span>
 ```
-Up
+#### Up
 ```html
   <span v-if="$mediaBreakpointUp('xs')"></span>
   <span v-if="$mediaBreakpointUp('sm')"></span>
@@ -36,7 +47,7 @@ Up
   <span v-if="$mediaBreakpointUp('lg')"></span>
   <span v-if="$mediaBreakpointUp('xl')"></span>
 ```
-Only
+#### Only
 ```html
   <span v-if="$mediaBreakpointOnly('xs')"></span>
   <span v-if="$mediaBreakpointOnly('sm')"></span>
@@ -44,7 +55,7 @@ Only
   <span v-if="$mediaBreakpointOnly('lg')"></span>
   <span v-if="$mediaBreakpointOnly('xl')"></span>
 ```
-Between
+#### Between
 ```html
   <span v-if="$mediaBreakpointBetween('xs', 'sm')"></span>
   <span v-if="$mediaBreakpointBetween('sm', 'md')"></span>
@@ -53,7 +64,7 @@ Between
 ```
 
 ### Inside script
-Down
+#### Down
 ```javascript
   this.$mediaBreakpointDown('xs')
   this.$mediaBreakpointDown('sm')
@@ -61,7 +72,7 @@ Down
   this.$mediaBreakpointDown('lg')
   this.$mediaBreakpointDown('xl')
 ```
-Up
+#### Up
 ```javascript
   this.$mediaBreakpointUp('xs')
   this.$mediaBreakpointUp('sm')
@@ -69,7 +80,7 @@ Up
   this.$mediaBreakpointUp('lg')
   this.$mediaBreakpointUp('xl')
 ```
-Only
+#### Only
 ```javascript
   this.$mediaBreakpointOnly('xs')
   this.$mediaBreakpointOnly('sm')
@@ -77,7 +88,7 @@ Only
   this.$mediaBreakpointOnly('lg')
   this.$mediaBreakpointOnly('xl')
 ```
-Between
+#### Between
 ```javascript
   this.$mediaBreakpointBetween('xs', 'sm')
   this.$mediaBreakpointBetween('sm', 'md')

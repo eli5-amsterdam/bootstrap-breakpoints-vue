@@ -1,6 +1,6 @@
 {
   "name": "@eli5/bootstrap-breakpoints-vue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use bootstrap breakpoints as Vue.js directive inside your templates",
   "private": false,
   "main": "index.js",
